@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import Team from "./modules/Teams";
+import WebFont from 'webfontloader';
+import {useEffect} from 'react';
+import React from "react";
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { withStyles } from '@mui/core'
 import './App.css';
-
+import Team2 from "./modules/Team2";
 function App() {
+  useEffect(() => {
+    WebFont.load({
+        google: {
+            families: ['']
+        }
+    });
+}, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <Team/> */}
+    <Team2/>
     </div>
   );
 }
