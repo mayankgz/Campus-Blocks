@@ -1,0 +1,120 @@
+/* #TEAM{
+    background-image: radial-gradient(circle at right,red,white);
+} */
+.Team_heading{
+    width:30%;
+    margin: auto;
+    text-align: center;
+    background-color: #FF522A;
+    box-shadow: 3px 3px black;
+}
+#Team_text{
+    font-family: 'neo-latina';
+    color: white;
+    font-weight: bold;    
+    font-size: 3rem;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+    text-shadow:2px 2px  black;
+    
+}
+.circle_pic{
+    border-radius: 50%;
+    border:1px solid black;
+    width:8%;
+    margin: auto;
+    height:7rem;
+    background-color: #FF522A;
+}
+/* }
+#content{
+    margin-top
+} */
+#vice{
+    width:20%;
+}
+.circle{
+    border-bottom:1px solid white;
+}
+.circle_pic img{
+    height:7rem;
+    width:100%;
+    border-radius: 50%;
+}
+.details{
+    font-family: 'neo-latina-bold';
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+.details_name{ 
+    color:#FF522A;
+    font-size: larger;
+
+}
+.details_links{
+    font-size: xx-large;
+}
+.details_links a{
+    padding: 2%;
+}
+.card1{
+    border-radius: 10%;
+    margin: auto;
+    padding-right:1%;
+    display:flex;
+    flex-direction: row;
+}
+.card12{
+    border:1px solid yellow;
+    text-align: center;
+}
+#tech_image{
+    width:20%;
+    float: left;
+}
+#teams_box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+#tech_box{
+    border:1px solid red;
+    margin: auto;
+    font-family: 'neo-latina';
+    /* font-size: xx-large; */
+    color: white;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+    text-shadow:2px 2px  black;
+    border-radius: 20%;
+    width: fit-content;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+#tech_box h1{
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+#tech_box img{
+    width:max-content;
+    height: fit-content;
+    border-radius: 20%;
+    
+}
+#tech_box:hover{
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+    Box-shadow:5px 5px  red;
+}
+@media (max-width:450px){
+    #teams_box{
+        flex-direction: column;
+    }
+}
