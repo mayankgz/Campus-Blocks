@@ -5,6 +5,8 @@ import React from "react";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { withStyles } from '@mui/core'
 import './App.css';
+
+import Contact from './modules/Contact'
 import Team2 from "./modules/Team2";
 function App() {
   useEffect(() => {
@@ -17,8 +19,8 @@ function App() {
 
   return (
     <div className="App">
-    {/* <Team/> */}
-    <Team2/>
+      <Team2/>
+     <Contact />
     </div>
   );
 }
