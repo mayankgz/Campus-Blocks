@@ -5,9 +5,13 @@ import React from "react";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { withStyles } from '@mui/core'
 import './App.css';
+import Home from './modules/home/Home';
+import About from './modules/about/About'
+import Navbar from './shared/Navbar'
+import Uevents from './modules/upcoming event/Upcoming_event'
 
-import Contact from './modules/Contact'
-import Team2 from "./modules/Team2";
+import Contact from './modules/contact/Contact'
+import Team2 from "./modules/Team/Team2";
 function App() {
   useEffect(() => {
     WebFont.load({
@@ -19,8 +23,25 @@ function App() {
 
   return (
     <div className="App">
-      <Team2/>
-     <Contact />
+      <div className="fixed top-0 left-0 right-0 z-10">
+          <Navbar />
+        </div>
+        <div>
+          <Home/>
+        </div>
+        <div>
+          <About/>
+        </div>
+        <div>
+          <Team2/>
+        </div>
+        <div>
+          <Uevents/>
+        </div>
+      <div>
+        <Contact />
+      </div>
+     
     </div>
   );
 }

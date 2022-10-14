@@ -1,14 +1,14 @@
 import React from 'react';
-import "../css/contact.css";
-import MediaImg from '../assests/socialmediacontact.jpg';
-import home from '../assests/contacthomeicon.png';
-import facebook from '../assests/contactfbicon.png';
-import instagram from '../assests/contactinstagramicon.png';
-import email from '../assests/contactemailicon.png';
+import "../../css/Contact/contact.css";
+import MediaImg from '../../assets/socialmediacontact.jpg';
+import home from '../../assets/contacthomeicon.png';
+import facebook from '../../assets/contactfbicon.png';
+import instagram from '../../assets/contactinstagramicon.png';
+import email from '../../assets/contactemailicon.png';
 
 const Contact = () => {
     return(
-        <div className='ContactUs'>
+        <div className='ContactUs' id='CONTACT'>
             <div className="contactHeading">
                 <span>Contact Us</span>
             </div>

@@ -1,14 +1,14 @@
-import '../css/Team2.css';
+import '../../css/Team/Team2.css';
 // import { AnimationOnScroll } from 'react-animation-on-scroll';
 import Fade from 'react-reveal/Fade';
-import Example from '../assets/examplepic.png'
+import Example from '../../assets/examplepic.png'
 import LightSpeed from 'react-reveal/LightSpeed';
-import Zoom from 'react-reveal/Zoom';
+// import Zoom from 'react-reveal/Zoom';
 import { Flip } from 'react-reveal';
 
 const Team2 = () => {
     return (
-        <div className='TEAMSS'>
+        <div className='TEAMSS'  id='TEAM'>
         <Fade top>
             <div id='ben'><h1 className='headings'>MEET THE TEAM</h1></div></Fade>
             <div id='CORE'>
@@ -16,7 +16,7 @@ const Team2 = () => {
                     <Fade bottom big delay={500} duration={1500}><div className='CORE_TEAM_img'><Flip delay={1000}><img src={Example} /></Flip></div></Fade>
                     <div className='details_Core'>
                        <LightSpeed left delay={1000} duration={3000}> <div className='details_name_Core'>
-                            Mayank Gagneja<br /> (Chairperson)
+                                Paarth Bassin<br /> (Chairperson)
                         </div></LightSpeed>
                         <LightSpeed right delay={2000} duration={3000}><div className='details_links'>
                             <a href='https://www.google.com'><i class="fa-brands fa-linkedin"></i></a>
@@ -34,7 +34,7 @@ const Team2 = () => {
                             <a href='https://www.google.com'><i class="fa-brands fa-linkedin"></i></a>
                             <a href='https://www.google.com'><i class="fa-brands fa-square-instagram"></i></a>
                         </div> */}<LightSpeed left delay={1000} duration={1500}> <div className='details_name_Core'>
-                            NAME<br /> (Mentor)
+                            Neha Gupta<br /> (Mentor)
                         </div></LightSpeed>
                         <LightSpeed right delay={2000} duration={1000}><div className='details_links'>
                             <a href='https://www.google.com'><i class="fa-brands fa-linkedin"></i></a>
@@ -53,7 +53,7 @@ const Team2 = () => {
                             <a href='https://www.google.com'><i class="fa-brands fa-square-instagram"></i></a>
                         </div> */}
                         <LightSpeed delay={1500} duration={2300}> <div className='details_name_Core'>
-                            NAME<br /> (Vice-Chairperson)
+                            Akriti<br /> (Vice-Chairperson)
                         </div></LightSpeed>
                         <LightSpeed right delay={2300} duration={3000}><div className='details_links'>
                             <a href='https://www.google.com'><i class="fa-brands fa-linkedin"></i></a>
@@ -72,7 +72,7 @@ const Team2 = () => {
                        <Fade bottom delay={1000} duration={1000}> <div className='CORE_TEAM_img'><img src={Example} /></div></Fade>
                         <div className='details_Core'>
                             <LightSpeed delay={2000} duration={1000}><div className='details_name_Core'>
-                                NAME<br /> (Tech Head)
+                                Dhruv Mittal<br /> (Tech Head)
                             </div></LightSpeed>
                             <LightSpeed right delay={2000} duration={1000}><div className='details_links'>
                                 <a href='https://www.google.com'><i class="fa-brands fa-linkedin"></i></a>
@@ -97,7 +97,7 @@ const Team2 = () => {
                        <Fade bottom delay={1000} duration={1000}> <div className='CORE_TEAM_img'><img src={Example} /></div></Fade>
                         <div className='details_Core'>
                             <LightSpeed delay={2000} duration={1000}><div className='details_name_Core'>
-                                NAME<br /> (Tech Head)
+                                Mayank Gagneja<br /> (Tech Head)
                             </div></LightSpeed>
                             <LightSpeed right delay={2000} duration={1000}><div className='details_links'>
                                 <a href='https://www.google.com'><i class="fa-brands fa-linkedin"></i></a>
@@ -173,7 +173,7 @@ const Team2 = () => {
                        <Fade bottom delay={1000} duration={1000}> <div className='CORE_TEAM_img'><img src={Example} /></div></Fade>
                         <div className='details_Core'>
                             <LightSpeed delay={2000} duration={1000}><div className='details_name_Core'>
-                                NAME<br /> (Design Head)
+                                Dhruv Kotra<br /> (Design Head)
                             </div></LightSpeed>
                             <LightSpeed right delay={2000} duration={1000}><div className='details_links'>
                                 <a href='https://www.google.com'><i class="fa-brands fa-linkedin"></i></a>

@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Example from '../assets/examplepic.png';
-import Card from './card.js';
+// import Card from './card.js';
 import TechTeam from '../assets/TheTechTeam.png'
 import Bbox from './box';
 const Team=()=>{
