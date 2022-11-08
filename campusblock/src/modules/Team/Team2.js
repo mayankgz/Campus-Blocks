@@ -5,6 +5,10 @@ import Example from '../../assets/examplepic.png'
 import LightSpeed from 'react-reveal/LightSpeed';
 // import Zoom from 'react-reveal/Zoom';
 import { Flip } from 'react-reveal';
+import Parth from '../../assets/TeamPics/P.png'
+import Neha from '../../assets/TeamPics/neha.jpg'
+import Mittal from '../../assets/TeamPics/DhruvMittal.jpg'
+import Mayank from '../../assets/TeamPics/mayankg.jpg'
 
 const Team2 = () => {
     return (
@@ -13,7 +17,7 @@ const Team2 = () => {
             <div id='ben'><h1 className='headings'>MEET THE TEAM</h1></div></Fade>
             <div id='CORE'>
                 <div className='Core_tem_section'>
-                    <Fade bottom big delay={500} duration={1500}><div className='CORE_TEAM_img'><Flip delay={1000}><img src={Example} /></Flip></div></Fade>
+                    <Fade bottom big delay={500} duration={1500}><div className='CORE_TEAM_img'><Flip delay={1000}><img src={Parth} /></Flip></div></Fade>
                     <div className='details_Core'>
                        <LightSpeed left delay={1000} duration={3000}> <div className='details_name_Core'>
                                 Paarth Bassin<br /> (Chairperson)
@@ -25,7 +29,7 @@ const Team2 = () => {
 
                     </div></div>
                 <div className='Core_tem_section'>
-                    <Fade bottom big duration={2000}><div className='CORE_TEAM_img'><img src={Example} />
+                    <Fade bottom big duration={2000}><div className='CORE_TEAM_img'><img src={Neha} />
                     </div></Fade><div className='details_Core'>
                         {/* <div className='details_name_Core'>
                             NAME<br /> (Mentor)
@@ -69,7 +73,7 @@ const Team2 = () => {
                 <div className='head'>
 
                     <div className='Core_tem_section'>
-                       <Fade bottom delay={1000} duration={1000}> <div className='CORE_TEAM_img'><img src={Example} /></div></Fade>
+                       <Fade bottom delay={1000} duration={1000}> <div className='CORE_TEAM_img'><img src={Mittal} /></div></Fade>
                         <div className='details_Core'>
                             <LightSpeed delay={2000} duration={1000}><div className='details_name_Core'>
                                 Dhruv Mittal<br /> (Tech Head)
@@ -94,7 +98,7 @@ const Team2 = () => {
                         </div>
                     </div> */}
                     <div className='Core_tem_section'>
-                       <Fade bottom delay={1000} duration={1000}> <div className='CORE_TEAM_img'><img src={Example} /></div></Fade>
+                       <Fade bottom delay={1000} duration={1000}> <div className='CORE_TEAM_img'><img src={Mayank} /></div></Fade>
                         <div className='details_Core'>
                             <LightSpeed delay={2000} duration={1000}><div className='details_name_Core'>
                                 Mayank Gagneja<br /> (Tech Head)

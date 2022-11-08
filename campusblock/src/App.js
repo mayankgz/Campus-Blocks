@@ -9,6 +9,9 @@ import Home from './modules/home/Home';
 import About from './modules/about/About'
 import Navbar from './shared/Navbar'
 import Uevents from './modules/upcoming event/Upcoming_event'
+import CodingComp from "./modules/previous events/CodingComp";
+import Roadmap from "./modules/previous events/Roadmap";
+import WebOCode from "./modules/previous events/WebOCode";
 
 import Contact from './modules/contact/Contact'
 import Team2 from "./modules/Team/Team2";
@@ -38,6 +41,15 @@ function App() {
         <div>
           <Uevents/>
         </div>
+        <div>
+          <CodingComp/>
+        </div>
+        <div>
+          <Roadmap/>
+        </div>
+        <div>
+          <WebOCode/>
+        </div>     
       <div>
         <Contact />
       </div>
